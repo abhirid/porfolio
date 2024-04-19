@@ -32,7 +32,6 @@
 }
 .skills{
     display: flex;
-    
     gap: 37px;
 }
 .skill{
@@ -49,7 +48,7 @@
 .skillImage{
     background-color: var(--color-secondary);
     padding: 5px;
-    border-radius: 15px;
+   border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,6 +68,10 @@
     .container{
         flex-direction: column;
         align-items: center;
+        margin-top: 30px;
+    }
+    .title{
+        font-size: 36px;
     }
     .skills{
         display: flex;
@@ -78,6 +81,20 @@
     }
     .p{
         max-width: 100%;
-        width: auto;
+      font-size:16px ;
+        
     }
+    .skills{
+        gap: 10px;
+        display: flex;
+    }
+    .skill{
+        width: 50px;
+        justify-content: space-between;
+    }
+   
+    .skill p{
+        font-size: 12px;
+    }
+ 
 }

@@ -28,7 +28,7 @@ function Contact() {
         <a href="https://www.github.com/myname">github.com/myname</a>
       </li>
     </ul>
-    <img width={250} src={foot} alt="" />
+    <img className={styles.img} width={250} src={foot} alt="" />
   </footer>
   )
 }

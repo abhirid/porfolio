@@ -69,7 +69,15 @@
   .navbar {
     flex-direction: column;
     align-items: flex-start;
+    margin: 0;
+    padding: 20px;
+
   }
+  .title img {
+    width: 70px;
+    height: auto; /* to maintain aspect ratio */
+  }
+  
 
   .menu {
     position: absolute;
