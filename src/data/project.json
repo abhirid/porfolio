@@ -1,26 +1,42 @@
 [
+  {
+    "title": "Gemini Ai",
+    "imageSrc": "projects/project.png",
+    "description": "Gemini ai provides a user allowing users to ask questions and receive responses just like they would with the real Gemini.",
+    "skills": ["HTML", "CSS","React"],
+    "demo": "https://gemini-12.netlify.app",
+    "source": "https://github.com/abhirid/gemini"
+  },
+  {
+    "title": "Ecommerce",
+    "imageSrc": "projects/project.png",
+    "description": "Carastore is a responsive e-commerce website frontend built with Html, CSS & JavaScript",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://ecommerc3e.netlify.app",
+    "source": "https://github.com/abhirid/ecommerce"
+  },
     {
-      "title": "Project A",
+      "title": "Moviehub",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "Moviehub is a ReactJS-based web app that provides users with information about the latest movies.",
+      "skills": ["React", "React-Router", "Redux", "TMDB API"],
+      "demo": "https://moivetube.netlify.app/",
+      "source": "https://github.com/abhirid/MovieHub"
+    },{
+      "title": "Thought Spot",
+      "imageSrc": "projects/project.png",
+      "description": "Users can post their thoughts along with their names (optional) and browse through the thoughts of others.",
+      "skills": ["HTML", "CSS","React","React-Router"],
+      "demo": "https://postthoughts.netlify.app/",
+      "source": "https://github.com/abhirid/Posts-site"
     },
     {
-      "title": "Project B",
+      "title": "Google Clone",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "Google clone allows users to enter search queries and displays relevant results, similar to the familiar Google experience",
+      "skills": ["HTML", "CSS","React","React-Router"],
+      "demo": "https://google12clone.netlify.app",
+      "source": "https://github.com/abhirid/Google-clone"
     }
+   
   ]

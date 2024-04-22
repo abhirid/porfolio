@@ -14,18 +14,18 @@ function Contact() {
     <ul className={styles.links}>
       <li className={styles.link}>
         <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-        <a href="mailto:myemail@email.com">myemail@email.com</a>
+        <a target="_blank" href="mailto:yadavabhishek9180@gmail.com">yadavabhishek9180@email.com</a>
       </li>
       <li className={styles.link}>
         <img
           src={getImageUrl("contact/linkedinIcon.png")}
           alt="LinkedIn icon"
         />
-        <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+        <a target="_blank" href="https://www.linkedin.com/in/abhishek-yadav-a09240205">linkedin.com/AbhishekYadav</a>
       </li>
       <li className={styles.link}>
         <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-        <a href="https://www.github.com/myname">github.com/myname</a>
+        <a target="_blank" href="https://www.github.com/abhirid">github.com/abhirid</a>
       </li>
     </ul>
     <img className={styles.img} width={250} src={foot} alt="" />
