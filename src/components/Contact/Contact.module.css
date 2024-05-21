@@ -44,11 +44,10 @@
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  transition: transform 0.3s ease-out;
 }
 .link a:hover{
-    background:var(--color-bg);
-   
-    color: white;
+  transform: translateX(8px);
   
 } 
 
@@ -80,10 +79,5 @@
   .img{
     margin-left:50px ;
   }
-  .link a:hover{
-    background:var(--color-bg);
-   
-    color: white;
-  
-} 
+
 }
